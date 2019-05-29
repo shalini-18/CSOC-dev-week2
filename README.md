@@ -12,5 +12,4 @@ Make sure that you make a seperate folder for your site and not put the files di
  - Javascript
  - Jquery
  - Canvas
- - Using a framework (like Angular, React, Vue)
- - SASS
+ - Material UI
