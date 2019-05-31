@@ -15,8 +15,8 @@ Make sure that you make a seperate folder for your site and not put the files di
  - A preloader. (25 points)
 
 ## Brownie Points
- - Responsiveness
- - Javascript
- - Jquery
- - Canvas
- - Material UI
+ - Responsiveness (30 points)
+ - Javascript (other from the preloader part) (30 points)
+ - Jquery (other from the preloader part) (30 points)
+ - Canvas (35 points)
+ - Material UI (25 points)
