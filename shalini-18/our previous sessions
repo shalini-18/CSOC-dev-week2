@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+Previous Sessions</title>
+<style>
+a{
+text-decoration:none;
+}
+
+a{
+display:block;
+padding:20px;
+
+color:blue;
+}
+.column
+{width:30%;
+height:136%;
+position:relative;
+float:left;
+background-color:lightblue;}
+.col2{
+width:70%;
+height:100%;
+position:relative;
+float:left;
+}
+.row {
+  display: flex;
+height:100%;
+position:absolute;
+top:0px;
+left:0px;
+}
+ul{
+list-style-type:none;
+font-size:30;
+padding:0px;
+margin:0px;
+}
+a:hover{
+background-color:lightgrey;
+}
+a:active{
+background-color:lightgreen;
+}
+</style>
+</head>
+<body style="background-color:orange">
+<div class="row">
+<div class="column">
+<ul>
+<li><a href="loader.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li style="background-color:lightgreen"><a href="previous.html">Our Previous Sessions</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul></div><div class="col2">
+<h1 style="text-align:center;font-size:50;color:green;">OUR PREVIOUS SESSIONS</h1>
+<br>
+<p style="font-size:30;color:green;text-align:center">So here we have some of our previous sessions where students have asked their doubts answered by us</p>
+<img src="C:\Users\hp\Downloads\WhatsApp Image 2019-06-06 at 6.37.27 PM.jpeg" width="100%" height="100%	">
+</div></div>
+</body>
+</html>
