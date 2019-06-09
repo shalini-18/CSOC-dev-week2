@@ -1,0 +1,301 @@
+html, body{ 
+    height: 100%; 
+} 
+      
+body{ 
+    margin: 0px; 
+    padding: 0px; 
+    background: white; 
+    font-family: 'Roboto'; 
+    font-size: 12pt; 
+} 
+          
+h1, h2, h3{ 
+    margin: 0; 
+    padding: 0; 
+    color: #404040; 
+} 
+      
+p, ol, ul{ 
+    margin-top: 0; 
+} 
+  
+p { 
+    line-height: 180%; 
+} 
+  
+ol, ul{ 
+    padding: 0; 
+    list-style: none; 
+} 
+      
+.container{     
+    /* Set width of container to  
+        1200px and align center */
+    margin: 0px auto; 
+    width: 1200px; 
+} 
+header{
+    overflow: hidden;
+}
+#top-header
+{
+    text-align: center;
+    height: 60px;
+}
+#logo{ 
+    float: left; 
+    padding: none; 
+    margin: none; 
+    height: 60px; 
+    width: 30%; 
+} 
+  
+#logo img{ 
+    width: 100%; 
+    float: left; 
+    padding: 10px 0px; 
+    height: 49px;
+}     
+
+#menu{ 
+    float: right; 
+    width: 70%; 
+    height: 100%; 
+    margin: none; 
+} 
+      
+#menu ul{ 
+    text-align: center; 
+    float: right; 
+    margin: none; 
+    background: blue; 
+} 
+      
+#menu li{ 
+    display: inline-block; 
+    padding: none; 
+    margin: none; 
+} 
+      
+#menu li a, #menu li span{ 
+    display: inline-block; 
+    padding: 0em 1.5em; 
+    text-decoration: none; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    line-height: 60px; 
+} 
+      
+#menu li a{ 
+          
+    color: #FFF; 
+} 
+      
+#menu li:hover a, #menu li span{ 
+    background: #FFF; 
+    color: #0074D9; 
+    border-left: 1px solid #0074D9; 
+    text-decoration: none; 
+} 
+#header-image-menu{  
+    position: relative; 
+} 
+#header-image-menu img{ 
+    width: 100%; 
+    margin: none; 
+    padding: none; 
+} 
+#image-text{ 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    font-family: 'Roboto'; 
+    color: #000; 
+    transform: translate(-40%, -30%); 
+    text-align: center; 
+} 
+#welcome 
+{   overflow: hidden; 
+    width: 1000px; 
+    margin: 0px auto; 
+} 
+          
+#welcome .title{ 
+    margin-top: 10px; 
+    padding: 10px; 
+    text-align: center; 
+} 
+  
+#welcome p{ 
+    margin-bottom: 40px; 
+    text-align: center; 
+} 
+#imageText{
+    position: absolute; 
+    top: 3%; 
+    left:3%; 
+    font-family: 'Roboto'; 
+    color:white; 
+    text-align: center; 
+}
+#section-2{ 
+    overflow: hidden; 
+    margin-top: 5em; 
+    padding-top: 1em; 
+    border-top: 1px solid rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+} 
+.row #column1,  
+.row #column2, 
+.row #column3{ 
+        float: left; 
+        width: 320px; 
+        padding: 80px 40px 80px 40px; 
+} 
+.column-title h2{ 
+    margin: 1em 0em; 
+    font-size: 1.6em; 
+    font-weight: 700; 
+} 
+.button { 
+    text-decoration: none; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    background-color:black;  
+    color: white;  
+    border: 2px solid #4CAF50; 
+    padding: 16px 32px; 
+    margin: 4px 2px; 
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; 
+    cursor: pointer; 
+} 
+      
+.button:hover { 
+    background-color: white; 
+    color: #4CAF50; 
+}
+#section-3{ 
+    overflow: hidden; 
+    padding-top: 5em; 
+    border-top: 1px solid rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+} 
+  
+.image 
+{ 
+    display: inline-block; 
+    border: 1px solid rgba(0, 0, 0, .5); 
+    border-radius: 5px; 
+} 
+      
+.image img 
+{ 
+    display: block; 
+    width: 100%; 
+} 
+      
+.image-full 
+{ 
+    display: block; 
+    width: 100%; 
+    margin: 0 0 3em 0; 
+} 
+      
+.img-title{ 
+    display: block; 
+    padding-bottom: 1em; 
+    font-size: 1em; 
+    color: rgba(0, 0, 0, 0.6); 
+} 
+#column21, 
+#column22, 
+#column23, 
+#column24
+{ 
+    width: 282px; 
+    text-align: center; 
+} 
+      
+#column21, 
+#column22, 
+#column23
+{ 
+    float: left; 
+    margin-right: 24px; 
+} 
+      
+#column24
+{ 
+    float: right; 
+} 
+
+.company-details{ 
+    overflow: hidden; 
+    padding: 3em 0em; 
+    background: #E3F0F7; 
+    text-align: center; 
+    margin-top: 5em; 
+} 
+  
+#footer #col1, 
+#footer #col2, 
+#footer #col3{ 
+    float: left; 
+    width: 320px; 
+    padding: 0px 40px 0px 40px; 
+} 
+      
+#footer #icon{ 
+    display: block; 
+    margin-bottom: 1em; 
+    font-size: 3em; 
+} 
+  
+/*** Adding Styles to Copyright Div ***/
+.copyright 
+{ 
+    overflow: hidden; 
+    padding: 3em 0em; 
+    border-top: 20px solid rgba(255, 255, 255, 0.08); 
+    text-align: center; 
+    background: #4CAF50; 
+} 
+      
+.copyright p 
+{ 
+    letter-spacing: 1px; 
+    font-size: 0.90em; 
+    color: rgba(255, 255, 255, 0.6); 
+} 
+      
+.copyright a 
+{ 
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.8); 
+} 
+  
+/* Styling Social Icons */
+ul.contact{ 
+    margin: 0; 
+    padding: 2em 0em 0em 0em; 
+    list-style: none; 
+} 
+      
+ul.contact li{ 
+    display: inline-block; 
+    padding: 0em 0.10em; 
+    font-size: 1em; 
+} 
+  
+ul.contact li a{ 
+    color: #FFF; 
+    display: inline-block; 
+    background: #4C93B9; 
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center; 
+}
