@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+About Us</title>
+</head>
+<style>
+a{
+text-decoration:none;
+}
+
+a{
+display:block;
+padding:20px;
+
+color:blue;
+}
+ul{
+list-style-type:none;
+font-size:30;
+padding:0px;
+margin:0px;
+}
+a:hover{
+background-color:lightgrey;
+}
+a:active{
+background-color:lightgreen;
+}
+.column
+{width:30%;
+height:100%;
+position:relative;
+float:left;
+background-color:lightblue;}
+.col2{
+width:70%;
+height:100%;
+position:relative;
+float:left;
+}
+.row {
+  display: flex;
+height:100%;
+position:absolute;
+top:0px;
+left:0px;
+}
+</style>
+<body style="background-color:violet">
+<div class="row">
+<div class="column">
+<ul>
+<li><a href="loader.html">Home</a></li>
+<li style="background-color:lightgreen"><a href="about.html">About Us</a></li>
+<li><a href="previous.html">Our Previous Sessions</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul></div>
+<div class="col2">
+<h1 style="text-align:center;font-size:50;color:green;">ABOUT US</h1>
+<br>
+<p style="font-size:30;color:green;text-align:center">Here you can ask your doubts of any subject:physics,maths,biology or chemistry.We have the students from IIT and AIIMS who will solve your doubts.Also we have some proffesional teachers for individual subjects who will help you with your doubts.So if you have any doubt just ask it away here.</p>
+</div></div>
+</body>
+</html>
